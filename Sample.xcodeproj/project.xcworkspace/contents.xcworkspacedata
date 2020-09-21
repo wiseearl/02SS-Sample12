@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:VFB.xcodeproj">
+      location = "self:/Users/User/Documents/CodingMUnit/Sample/Sample.xcodeproj">
    </FileRef>
 </Workspace>

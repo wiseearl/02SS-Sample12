@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A17EA786251888A20047EDB1 /* VFB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VFB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17EA786251888A20047EDB1 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17EA789251888A20047EDB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A17EA78B251888A20047EDB1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		A17EA78D251888A20047EDB1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		A17EA792251888A30047EDB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A17EA795251888A30047EDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A17EA797251888A30047EDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A17EA79C251888A40047EDB1 /* VFBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VFBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17EA79C251888A40047EDB1 /* SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17EA7A0251888A40047EDB1 /* VFBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFBTests.swift; sourceTree = "<group>"; };
 		A17EA7A2251888A40047EDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A17EA7A7251888A40047EDB1 /* VFBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VFBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17EA7A7251888A40047EDB1 /* SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17EA7AB251888A40047EDB1 /* VFBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFBUITests.swift; sourceTree = "<group>"; };
 		A17EA7AD251888A40047EDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		A17EA787251888A20047EDB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A17EA786251888A20047EDB1 /* VFB.app */,
-				A17EA79C251888A40047EDB1 /* VFBTests.xctest */,
-				A17EA7A7251888A40047EDB1 /* VFBUITests.xctest */,
+				A17EA786251888A20047EDB1 /* Sample.app */,
+				A17EA79C251888A40047EDB1 /* SampleTests.xctest */,
+				A17EA7A7251888A40047EDB1 /* SampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A17EA785251888A20047EDB1 /* VFB */ = {
+		A17EA785251888A20047EDB1 /* Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A17EA7B0251888A40047EDB1 /* Build configuration list for PBXNativeTarget "VFB" */;
+			buildConfigurationList = A17EA7B0251888A40047EDB1 /* Build configuration list for PBXNativeTarget "Sample" */;
 			buildPhases = (
 				A17EA782251888A20047EDB1 /* Sources */,
 				A17EA783251888A20047EDB1 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = VFB;
+			name = Sample;
 			productName = VFB;
-			productReference = A17EA786251888A20047EDB1 /* VFB.app */;
+			productReference = A17EA786251888A20047EDB1 /* Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A17EA79B251888A40047EDB1 /* VFBTests */ = {
+		A17EA79B251888A40047EDB1 /* SampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A17EA7B3251888A40047EDB1 /* Build configuration list for PBXNativeTarget "VFBTests" */;
+			buildConfigurationList = A17EA7B3251888A40047EDB1 /* Build configuration list for PBXNativeTarget "SampleTests" */;
 			buildPhases = (
 				A17EA798251888A40047EDB1 /* Sources */,
 				A17EA799251888A40047EDB1 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				A17EA79E251888A40047EDB1 /* PBXTargetDependency */,
 			);
-			name = VFBTests;
+			name = SampleTests;
 			productName = VFBTests;
-			productReference = A17EA79C251888A40047EDB1 /* VFBTests.xctest */;
+			productReference = A17EA79C251888A40047EDB1 /* SampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A17EA7A6251888A40047EDB1 /* VFBUITests */ = {
+		A17EA7A6251888A40047EDB1 /* SampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A17EA7B6251888A40047EDB1 /* Build configuration list for PBXNativeTarget "VFBUITests" */;
+			buildConfigurationList = A17EA7B6251888A40047EDB1 /* Build configuration list for PBXNativeTarget "SampleUITests" */;
 			buildPhases = (
 				A17EA7A3251888A40047EDB1 /* Sources */,
 				A17EA7A4251888A40047EDB1 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				A17EA7A9251888A40047EDB1 /* PBXTargetDependency */,
 			);
-			name = VFBUITests;
+			name = SampleUITests;
 			productName = VFBUITests;
-			productReference = A17EA7A7251888A40047EDB1 /* VFBUITests.xctest */;
+			productReference = A17EA7A7251888A40047EDB1 /* SampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A17EA781251888A20047EDB1 /* Build configuration list for PBXProject "VFB" */;
+			buildConfigurationList = A17EA781251888A20047EDB1 /* Build configuration list for PBXProject "Sample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A17EA785251888A20047EDB1 /* VFB */,
-				A17EA79B251888A40047EDB1 /* VFBTests */,
-				A17EA7A6251888A40047EDB1 /* VFBUITests */,
+				A17EA785251888A20047EDB1 /* Sample */,
+				A17EA79B251888A40047EDB1 /* SampleTests */,
+				A17EA7A6251888A40047EDB1 /* SampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		A17EA79E251888A40047EDB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A17EA785251888A20047EDB1 /* VFB */;
+			target = A17EA785251888A20047EDB1 /* Sample */;
 			targetProxy = A17EA79D251888A40047EDB1 /* PBXContainerItemProxy */;
 		};
 		A17EA7A9251888A40047EDB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A17EA785251888A20047EDB1 /* VFB */;
+			target = A17EA785251888A20047EDB1 /* Sample */;
 			targetProxy = A17EA7A8251888A40047EDB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -486,7 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VFB.app/VFB";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample.app/Sample";
 			};
 			name = Debug;
 		};
@@ -506,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VFB.app/VFB";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sample.app/Sample";
 			};
 			name = Release;
 		};
@@ -551,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A17EA781251888A20047EDB1 /* Build configuration list for PBXProject "VFB" */ = {
+		A17EA781251888A20047EDB1 /* Build configuration list for PBXProject "Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A17EA7AE251888A40047EDB1 /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A17EA7B0251888A40047EDB1 /* Build configuration list for PBXNativeTarget "VFB" */ = {
+		A17EA7B0251888A40047EDB1 /* Build configuration list for PBXNativeTarget "Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A17EA7B1251888A40047EDB1 /* Debug */,
@@ -569,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A17EA7B3251888A40047EDB1 /* Build configuration list for PBXNativeTarget "VFBTests" */ = {
+		A17EA7B3251888A40047EDB1 /* Build configuration list for PBXNativeTarget "SampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A17EA7B4251888A40047EDB1 /* Debug */,
@@ -578,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A17EA7B6251888A40047EDB1 /* Build configuration list for PBXNativeTarget "VFBUITests" */ = {
+		A17EA7B6251888A40047EDB1 /* Build configuration list for PBXNativeTarget "SampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A17EA7B7251888A40047EDB1 /* Debug */,
